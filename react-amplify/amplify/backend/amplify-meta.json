@@ -22,7 +22,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-clouda4-devel-210830-deployment/amplify-cfn-templates/auth/clouda48f39fbd4-cloudformation-template.yml",
         "logicalId": "authclouda48f39fbd4"
       },
-      "lastPushTimeStamp": "2020-12-01T19:24:44.714Z",
+      "lastPushTimeStamp": "2020-12-01T20:47:17.676Z",
       "output": {
         "AppClientSecret": "dndqm5r6p31133g5ubsv20gfllse2h3cv9id688e2os57fh7dft",
         "UserPoolId": "us-east-1_aB9dJIS4V",
@@ -53,7 +53,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-clouda4-devel-210830-deployment/amplify-cfn-templates/api/api0bdbc7ee-cloudformation-template.json",
         "logicalId": "apiapi0bdbc7ee"
       },
-      "lastPushTimeStamp": "2020-12-01T19:24:44.716Z",
+      "lastPushTimeStamp": "2020-12-01T20:47:17.679Z",
       "output": {
         "ApiName": "api0bdbc7ee",
         "RootUrl": "https://hbqbwyhppj.execute-api.us-east-1.amazonaws.com/devel",
@@ -74,7 +74,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-clouda4-devel-210830-deployment/amplify-cfn-templates/function/clouda419af4af7-cloudformation-template.json",
         "logicalId": "functionclouda419af4af7"
       },
-      "lastPushTimeStamp": "2020-12-01T19:24:44.718Z",
+      "lastPushTimeStamp": "2020-12-01T20:47:17.680Z",
       "output": {
         "Region": "us-east-1",
         "Arn": "arn:aws:lambda:us-east-1:809011754560:function:clouda419af4af7-devel",
@@ -82,6 +82,19 @@
         "LambdaExecutionRole": "clouda4LambdaRolecd805416-devel"
       },
       "lastPushDirHash": "XBL1qOxEEmRqtWc/mTVZVriUoOE="
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "output": {},
+      "lastPushTimeStamp": "2020-12-01T20:47:17.683Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-clouda4-devel-210830-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      }
     }
   }
 }
